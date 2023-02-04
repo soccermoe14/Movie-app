@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -22,4 +23,20 @@ function App() {
   );
 }
 
-export default App;
+import React from 'react'
+import Body from './Body'
+import FormComponent from './Form'
+import NavbarComponent from './Navbar'
+import './styles.css'
+
+export default function App() {
+  return (
+    <>
+    <NavbarComponent/>
+    <Body/>
+    <FormComponent/>
+    </>
+  )
+}
+
+
